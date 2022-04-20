@@ -10,15 +10,15 @@ import com.projects.knowbinge.enums.commonEnum;
 
 import org.springframework.web.client.RestTemplate;
 
-import lombok.RequiredArgsConstructor;
-
-@RequiredArgsConstructor
 public class getBingeService implements IgetBingeService{
     //Class Variables
     protected final String id = "e2690d41"; 
     protected String name;
     private RestTemplate restTemplate;
     private ObjectMapper objectMapper;
+
+    //Default Constructoc
+    public getBingeService(){}
 
     //Constructor
     public getBingeService(String name)
