@@ -82,7 +82,7 @@ public class getBingeService implements IgetBingeService{
         String type = currentBinge.getType();
         if(commonEnum.valueOf(type) == commonEnum.movie)
         {
-            return currentBinge.getMovie();
+            return currentBinge.getMovies();
         }
         else if(commonEnum.valueOf(type) == commonEnum.series)
         {

@@ -277,16 +277,33 @@ public void setResponse(String response) {
 this.response = response;
 }
 
-    public String getMovie() {
-        return "\n"+"Movie : "+getTitle()+"\n"+"Release : "+getReleased()+"\n"+"Plot : "+getPlot()+"\n"+"Awards : " +getAwards()+"\n"+"Rated : "+getRated()+"\n"+"Genre : "+getGenre()+"\n"+"Director : "+getDirector()+"\n"+"Available in : "+getLanguage()
-        +"\n"+"IMDB Rating's : "+getImdbRating()+"\n"+"Box Office(WorldWide Collections) : "+getBoxOffice()+"\n";
-    }
+public String getMovies() {
+    // TODO Auto-generated method stub
+    return "\n"+"Movie : "+getTitle()+"\n"
+               +"Release : "+getReleased()+"\n"+
+               "Plot : "+getPlot()+"\n"+
+               "Awards : " +getAwards()+"\n"+
+               "Rated : "+getRated()+"\n"+
+               "Genre : "+getGenre()+"\n"+
+               "Director : "+getDirector()+"\n"+
+               "Available in : "+getLanguage()+"\n"+
+               "IMDB Rating's : "+getImdbRating()+"\n"+
+               "Box Office(WorldWide Collections) : "+getBoxOffice()+"\n";
+}
 
-    public String getSeries() {
-        return "\n"+"Series : "+getTitle()+"\n"+"Year(s): "+getYear()+"\n"+"Season(s) : "+getTotalSeasons()+"\n"+"Actors : "+"Awards : " +getAwards()+"\n"+getActors()+"\n"+"Rated : "+getRated()+"\n"+"Genre : "+getGenre()+"\n"+"Director : "+getDirector()+"\n"+"Available in : "+getLanguage()
-        +"\n"+"IMDB Rating's : "+getImdbRating()+"\n";
-    }
-
+public String getSeries() {
+    // TODO Auto-generated method stub
+    return "\n"+"Series : "+getTitle()+"\n"+
+                "Year(s): "+getYear()+"\n"+
+                 "Season(s) : "+getTotalSeasons()+"\n"+
+                 "Awards : " +getAwards()+"\n"+
+                 "Actors : "+getActors()+"\n"+
+                 "Rated : "+getRated()+"\n"+
+                 "Genre : "+getGenre()+"\n"+
+                 "Director : "+getDirector()+"\n"+
+                 "Available in : "+getLanguage()+"\n"+
+                 "IMDB Rating's : "+getImdbRating()+"\n";
+}
 
     
 }

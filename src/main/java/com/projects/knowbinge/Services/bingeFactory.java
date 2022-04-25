@@ -14,6 +14,7 @@ public class bingeFactory extends getBingeService{
     }
     public String getService() throws JsonParseException, JsonMappingException, Exception
     {
-        return getDetails();
+        String output = getDetails();
+        return output;
     }
 }
